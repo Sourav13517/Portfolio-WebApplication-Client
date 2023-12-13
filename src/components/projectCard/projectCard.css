@@ -1,0 +1,57 @@
+.pro-card-main {
+    width: 40%;
+    background-color: rgb(166, 225, 250);
+    padding: 20px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+}
+.pro-card-main:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+
+.title {
+    text-align: left;
+    color: rgb(36, 41, 46);
+    font-family: 'Phudu', cursive;
+    margin-bottom: 0.75rem;
+    font-size: 20px;
+    font-weight: 700;
+    overflow: hidden;
+    line-height: 1.2;
+    margin: 0px;
+    color: rgb(0, 28, 85)
+}
+.title h3{
+    margin: 0;
+}
+.project-despription{
+  margin-top: 0.8rem;
+  padding: 0px 20px;
+  font-size: 17px;
+  color: rgb(0, 28, 85);
+  font-weight: 600;
+}
+.project-details{
+    display: flex;
+    flex-direction: row;
+}
+.project-date{
+    margin: 0;
+  font-family: "Google Sans Regular";
+  font-weight: 400;
+  margin-left: 0px;
+  margin-right: auto;
+  padding: 0 20px;
+  color:rgb(127, 141, 170)
+  
+}
+.project-date p{
+    font-weight: 600;
+}
+
+@media(max-width:1200px){
+    .pro-card-main{
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+.experience{
+    margin: 4% 5%;
+}
+.exp_image{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.exp_content{
+    width: 100%;
+    text-align: center;
+}
+.exp_content h1{
+    color: rgb(0, 28, 85);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.exp_content p{
+    color: rgba(8, 85, 136, 0.467);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+@media(max-width:1024px){
+    .layer1{
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .exp_image>* {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    }
+}

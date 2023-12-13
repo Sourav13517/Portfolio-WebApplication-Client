@@ -1,0 +1,90 @@
+.degree_card {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+    border: 1px solid #d9dbdf;
+    border-radius: 7px;
+    box-shadow: 9px 10px 8px #d9dbdf;
+    margin-bottom: 50px;
+}
+
+
+.degree_head {
+    display: flex;
+    background-color: rgba(14, 107, 168, 0.467);
+    padding: 10px;
+    color: rgb(0, 28, 85);
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 7px 7px 0 0;
+}
+
+.head_title {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.card-title {
+    font-family: "Google Sans Medium";
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.card-subtitle {
+    font-family: "Google Sans Medium";
+    font-size: 18px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.time {
+    margin-left: 20px;
+}
+
+.time h4 {
+    color: rgb(0, 28, 85);
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.degree_body {
+    padding: 0 28px 20px 50px;
+    box-sizing: border-box;
+    max-width: inherit;
+}
+
+.degree_body p {
+    margin: 21px 15px;
+    color: rgb(0, 28, 85);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.degree-btn {
+    float: right;
+    margin-right: 10px;
+    display: block;
+}
+
+
+@media (max-width:680px) {
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-subtitle {
+        font-size: 12px;
+    }
+
+    .time {
+        font-size: 8px;
+    }
+
+    .degree_body a {
+        text-align: center;
+    }
+
+    .degree_body {
+        padding: 0 16px 10px 25px;
+    }
+}

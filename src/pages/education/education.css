@@ -1,0 +1,42 @@
+.main-wrapper{
+    margin: 0;
+    padding: 0;
+    transition: all .3s linear;
+}
+.education{
+    margin: 0% 5%;
+    
+}
+.layer1{
+    display: flex;
+    margin-bottom: 40px ;
+}
+
+.edu-img{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.edu_content{
+    width: 100%;
+    text-align: center;
+}
+.edu_content h1{
+    color: rgb(0, 28, 85);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.edu_content h3{
+    color: rgb(0, 28, 85);
+    font-size: 30px;
+}
+@media(width<=1200px){
+    .edu-img>* {
+    width: 80em;
+    max-width: 100%;
+    height:auto;
+    padding: 10px 10px;
+    }
+}
+

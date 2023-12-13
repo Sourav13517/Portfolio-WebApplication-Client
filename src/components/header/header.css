@@ -1,0 +1,119 @@
+.header {
+  max-width: 90%;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5%;
+}
+
+.header .logo {
+  font-size: 1.5em;
+  text-decoration: none;
+  line-height: normal;
+  float: left;
+}
+
+
+.header .logo-name {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-weight: 800;
+  padding: 0 10px;
+  font-size: 1.9em;
+}
+
+.nav_menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #001C55;
+  transition: all 0.3s;
+}
+
+.nav-link:hover{
+  padding: 15px 15px;
+}
+
+
+.header li a.active {
+  font-weight: bold;
+}
+
+.btn-list {
+  display: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.btn-lcon {
+  width: 2rem;
+  height: 2rem;
+  color: #001C55;
+}
+
+.btn-lcon[id="menu-close"] {
+  display: none;
+}
+
+#check-box {
+  display: none;
+}
+
+#check-box:checked ~ .navbar{
+  right: 0;
+}
+
+@media screen and (width<=776px) {
+  .btn-list {
+    display: block;
+    z-index: 999;
+    color: #001C55;
+  }
+
+  .navbar{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    transition: all .5s linear;
+    pointer-events: auto;
+  }
+
+  .nav_menu{
+    display: block;
+    text-align: center;
+  }
+  .nav_menu li{
+    padding: 20px 20px;
+  }
+
+  .input-btn:checked~.menu-btn #menu-open {
+    display: none;
+  }
+
+
+  .input-btn:checked~.menu-btn #menu-close {
+    display: block;
+  }
+}
+
+@media screen and (width<=910px){
+  
+  .nav-link:link{
+    font-size: 1.2rem;
+  }
+  .header .logo-name{
+    font-size: 1.7em;
+  }
+  .header .logo{
+    font-size: 1.3em;
+  }
+}

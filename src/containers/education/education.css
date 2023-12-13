@@ -1,0 +1,12 @@
+.degree{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+.heading h1{
+    color: rgb(0, 28, 85);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
