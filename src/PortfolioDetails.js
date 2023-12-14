@@ -11,10 +11,11 @@ const intro = {
 const skills = {
     data: [
         {
-            title: "Full Stack Development",
+            title: "Full Stack Development(MERN)",
             skillPhases: [
                 "⚡ Building responsive website front end using React.",
                 "⚡ Creating application backend in Express.",
+                "⚡ Use MongoDB as database services."
             ],
             softwareSkills: [
                 {
@@ -56,6 +57,14 @@ const skills = {
                     style:{
                         color:"",
                         fontSize: "50px"
+                    }
+                },
+                {
+                    skillName: "MongoDB",
+                    logo: "devicon:mongodb-wordmark",
+                    style:{
+                        color:"",
+                        fontSize: "50px",
                     }
                 }
             ]
@@ -166,7 +175,7 @@ const projects = {
             title:"Portfolio Website",
             description:"⚡ A complete portfolio website is built and deployed.",
             date:"23 aug, 2023",
-            link:"",
+            link:"https://github.com/Sourav13517/Portfolio-WebApplication-Client",
             languages:[
                 {
                     skillName: "HTML",
@@ -207,6 +216,14 @@ const projects = {
                     style:{
                         fontSize: "25px"
                     }
+                },
+                {
+                    skillName: "MongoDB",
+                    logo: "devicon:mongodb-wordmark",
+                    style:{
+                        color:"",
+                        fontSize: "25px",
+                    }
                 }
 
             ]
@@ -215,7 +232,7 @@ const projects = {
             title:"Image Authentication based on Steganography",
             description:"⚡ Maintainig image authentication using Hash function.",
             date:"23 aug, 2023",
-            link:"",
+            link:"https://drive.google.com/file/d/1z8_JPB9Gh3AC0vOK559gbYALcPjU3W5d/view?usp=sharing",
             languages:[
                 {
                     skillName: "Python",

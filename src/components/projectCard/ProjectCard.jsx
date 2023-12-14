@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const ProjectCard = (props) => {
     return (
         <>
-            <NavLink to={props.project.link} className="pro-card-main">
+            <NavLink to={props.project.link} target="_blank" className="pro-card-main">
                 <Fade direction="up" duration={2000} triggerOnce>
                     <div className="title">
                         <h3>{props.project.title.length > 36 ? props.project.title.substring(0, 35) + "..." : props.project.title}</h3>
